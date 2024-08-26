@@ -1,0 +1,1 @@
+let solution = s => (""+Math.min(...s.split(" ").map(a=>+a)))+" "+(""+Math.max(...s.split(" ").map(a=>+a)))
