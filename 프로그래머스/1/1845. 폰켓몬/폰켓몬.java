@@ -1,9 +1,9 @@
 import java.util.*;
 class Solution {
     public int solution(int[] nums) {
-        int answer = 0;
+        int answer = 1;
         Arrays.sort(nums);
-        int k = 0;
+        int k = nums[0];
         for(int i = 0;i<nums.length;i++){
             if(nums[i]!=k){
                 answer++;
