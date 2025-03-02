@@ -1,7 +1,7 @@
 import java.util.*;
 
 class Main {
-    public static void main(String[] args) throws RuntimeException {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         sc.nextLine();
@@ -45,7 +45,6 @@ class Main {
             }
             p.append('\n');
         }
-        p = p.deleteCharAt(p.length() - 1);
         System.out.print(p);
     }
 }
