@@ -17,7 +17,7 @@ fun f(sTop:Boolean, eTop:Boolean, s1:String, s2:String):Boolean {
     for(i in s1.indices){
         if(s1[i] == 'L')isTop = !isTop
     }
-    return sTop == eTop
+    return isTop == eTop
 }
 fun main(args: Array<String>) = with(Scanner(System.`in`)) {
     nextLine()
